@@ -59,6 +59,15 @@ stretch（默认值）：如果项目未设置高度或设为auto，将占满整
 flex 属性是flex -grow ,flex-shrink,  和 flex-basis 的简写  其默认值 为 0  1   auto  
 ###align-self 属性 
 align-self 属性允许单个项目有与其他项目不一样的对齐方式，可覆盖 align-items 属性，默认值为 auto,继承父元素的 align-items属性，如果没有父元素，则等同于 stretch 
+## 对 垂直对齐  vertical-align的一些认识
+从  w3c的解释中可看出  
+vertical - align  属性 会影响到由内联元素产生的行内框的垂直位置 
+#####首先说明一下  vertical-align 的使用前提
+这个便签只能用于 行内元素和表单单元格元素，因此对于那些块级元素  并不能使用   
+####text-align  属性让块级元素中的内联文本水平对齐  
+###baseline
+一个元素的基线与父元素的基线对齐，这个是默认值，这是在默认段落行高一样的情况下可说，假如是替换元素，那么这就是与图像的基线对齐。
+
  
 
 
